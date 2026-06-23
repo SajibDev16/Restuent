@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+font-family: "Roboto", sans-serif;;
+}
+/* nav */
+.navbar-brand span{
+    color: red;
+}
+nav .btn a{
+    color: aliceblue;
+}
+/* banar */
+.banar h1{
+      font-family: "Amatic SC", sans-serif;
+
+}
