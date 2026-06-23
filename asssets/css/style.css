@@ -13,11 +13,24 @@ font-family: "Roboto", sans-serif;;
 .navbar-brand span{
     color: red;
 }
-nav .btn a{
+.btn a{
     color: aliceblue;
 }
 /* banar */
+.text{
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
+    margin-top: 150px;
+}
+
 .banar h1{
       font-family: "Amatic SC", sans-serif;
-
+      font-size: 70px;
+}
+.banar img{
+    width: 80%;
+}
+.unic a{
+    color: black;
 }
