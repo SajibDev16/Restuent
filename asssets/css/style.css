@@ -90,4 +90,159 @@ nav ul li :hover{
     border-bottom: 2px solid red;
 
 }
+.manu .manu-img img{
+    width: 60%;
+}
+.wave path{
+    fill:#fff;
+}
 
+
+.wave{
+    display:block;
+    height:65px;
+    margin-top:-55px;
+    width: 100%;
+}
+.chef-card img{
+    width: 100%;
+}
+.chep h3{
+    font-family: "Amatic SC", sans-serif;
+}
+.chef-card{
+    transition: transform .4s ease, box-shadow .4s ease;
+}
+
+.chef-card:hover{
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 20px 40px rgba(0,0,0,.18);
+}
+.booking{
+    background:#f8f8f8;
+}
+
+.form-control{
+    height:55px;
+    border-radius:0;
+    border:1px solid #ddd;
+    box-shadow:none;
+}
+
+.form-control:focus{
+    border-color:#ce1212;
+    box-shadow:none;
+}
+
+textarea.form-control{
+    height:150px;
+    resize:none;
+}
+
+.book-btn{
+    background:#ce1212;
+    color:#fff;
+    padding:14px 40px;
+    border-radius:5px;
+    font-size:18px;
+    transition:.3s;
+}
+
+.book-btn:hover{
+    background:#e61414;
+    color:#fff;
+}
+.booking h2{
+      font-family: "Amatic SC", sans-serif;
+      font-size: 60px;
+}
+.contact{
+    background:#f8f8f8;
+}
+
+.info-box{
+    background:#fff;
+    padding:20px;
+    box-shadow:0 0 20px rgba(0,0,0,.08);
+}
+
+.icon{
+    width:55px;
+    height:55px;
+    background:#ce1212;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    font-size:24px;
+}
+
+.info-box h4{
+    font-size:22px;
+    font-weight:700;
+    color:#444;
+    margin-bottom:5px;
+}
+
+.info-box p{
+    margin:0;
+    font-size:15px;
+}
+
+.contact-form{
+    background:#fff;
+    padding:30px;
+    box-shadow:0 0 20px rgba(0,0,0,.08);
+}
+
+.form-control{
+    border-radius:0;
+    height:50px;
+    box-shadow:none;
+}
+
+.form-control:focus{
+    border-color:#ce1212;
+    box-shadow:none;
+}
+
+textarea.form-control{
+    height:180px;
+    resize:none;
+}
+.footer{
+    background:#212529;
+    color:#adb5bd;
+}
+
+.footer h2,
+.footer h3{
+    color:#fff;
+    font-weight:700;
+}
+
+.footer p{
+    line-height:1.8;
+    margin-bottom:10px;
+}
+
+.footer ul li{
+    margin-bottom:12px;
+}
+
+.footer ul li a{
+    color:#dee2e6;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer ul li a:hover{
+    color:#fff;
+    padding-left:6px;
+}
+
+.footer i{
+    color:#fff;
+    font-size:40px;
+}
